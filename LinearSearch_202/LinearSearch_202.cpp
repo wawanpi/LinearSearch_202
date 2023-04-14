@@ -30,6 +30,8 @@ void input()
 
 void LinearSearch()
 {
+	char ch;
+	int compariddon;			////Number of Comparrison
 
 }
 
