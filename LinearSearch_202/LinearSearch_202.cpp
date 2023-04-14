@@ -37,6 +37,8 @@ void LinearSearch()
 	{
 		//Accept the number to be searched
 		cout << "\nEnter the element you want to search : ";		//Langkah1
+		int item;
+		cin >> item;
 	}
 }
 
