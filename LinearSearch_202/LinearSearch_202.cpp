@@ -50,5 +50,9 @@ void LinearSearch()
 				break;
 		}
 	}
+		if (i == n)					//Langkah 5b not found
+		{
+
+		}
 }
 
