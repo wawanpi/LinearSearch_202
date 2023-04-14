@@ -33,5 +33,10 @@ void LinearSearch()
 	char ch;
 	int compariddon;			////Number of Comparrison
 
+	do 
+	{
+		//Accept the number to be searched
+		cout << "\nEnter the element you want to search : ";		//Langkah1
+	}
 }
 
