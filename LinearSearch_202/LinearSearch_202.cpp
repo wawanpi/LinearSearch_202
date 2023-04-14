@@ -33,7 +33,7 @@ void LinearSearch()
 	char ch;
 	int comparisson;			////Number of Comparrison
 
-	do 
+	do
 	{
 		//Accept the number to be searched
 		cout << "\nEnter the element you want to search : ";		//Langkah1
@@ -48,15 +48,14 @@ void LinearSearch()
 			{
 				cout << "\n" << item << " Found at Position " << (i + 1) << endl;
 				break;
+			}
 		}
-	}
-		if (i == n)					//Langkah 5b not found
-		{
+		if (i == n)								//Langkah 5b not found
+
 			cout << "\n" << item << "Not Found in the Array\n";
 			cout << "\nNumber of comparisson : " << comparisson << endl;
 
 			cout << "\nContinue Search (y/n) ? ";
 			cin >> ch;
-		}
-}
-
+		} while ((ch == 'y') || (ch == 'Y'));
+	}
